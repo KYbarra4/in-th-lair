@@ -13,7 +13,6 @@ body {
     opacity: 75%;
   }
   
-  /* Classes */
   .target-head {
     color: #041e42;
     font-family: georgia;
@@ -25,14 +24,6 @@ body {
   
   .center {
     text-align: center;
-  }
-  
-  .col-6 {
-    background: white;
-  }
-  
-  .col-12 {
-    background: white;
   }
   
   .img-margin {
@@ -103,34 +94,6 @@ body {
     text-align: center;
   }
   
-  .table {
-    background: white;
-  }
-  
-  .white {
-    color: white;
-  }
-  
-  .white:hover {
-    color: gray;
-  }
-  
-  .el-button {
-    color: #E80018;
-    font-size: 24px;
-    padding: 20px;
-    background-color: lightgray;
-    border: none;
-    border-radius: 12px;
-  }
-  
-  .el-button:hover {
-      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-      background-color:#E80018;
-      color:#ffffff;
-      border: none;
-  }
-  
   h4 {
     text-align: center;
   }
@@ -141,4 +104,9 @@ body {
   
   h3 {
     text-align: center;
+  }
+
+  .dropdown-item:hover {
+    background-color: black;
+    color: white;
   }
