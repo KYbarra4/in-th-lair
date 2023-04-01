@@ -1,10 +1,11 @@
 body {
-          opacity:75%
+          opacity:80%;
         }
   
   footer {
     background-color: BLACK;
     bottom: 0;
+    position: fixed;
     color: white;
     padding: 14px;
     position: relative;
@@ -13,25 +14,13 @@ body {
     opacity: 75%;
   }
   
-  .target-head {
+  .thelair-head {
     color: #041e42;
     font-family: georgia;
     font-size: 28pt;
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
-  }
-  
-  .center {
-    text-align: center;
-  }
-  
-  .img-margin {
-    margin-bottom: 28px;
-  }
-  
-  .large-pad {
-    padding: 40px;
   }
   
   .navbar {
@@ -74,12 +63,6 @@ body {
     padding: 10px;
     font-size: 20px;
   }
-  
-  .row {
-    background-color: white;
-    --bs-gutter-x: 100px;
-    --bs-gutter-y: 100px;
-  }
 
   .small-pad {
     padding: 10px;
@@ -98,8 +81,11 @@ body {
     text-align: center;
   }
   
-  .col-12 {
-    background-color: lightgrey;
+  .container {
+    min-height: 100%;
+    background-color: whitesmoke;
+    --bs-gutter-x: 100px;
+    --bs-gutter-y: 100px;
   }
   
   h3 {
@@ -110,3 +96,7 @@ body {
     background-color: black;
     color: white;
   }
+
+  .custom-toggler.navbar-toggler {
+    border-color: white;
+}
