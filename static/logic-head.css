@@ -1,9 +1,11 @@
-  body {
+body {
     opacity:90%;
-        }
+    /* background-color: #004953; */
+    /* background: radial-gradient(#e66465, #9198e5); */
+    }
   
   footer {
-    background-color: black;
+    background-color: BLACK;
     bottom: 0;
     position: fixed;
     color: white;
@@ -115,10 +117,10 @@
     height: 600px;
   }
 
-  .carousel-caption {
+  /* .carousel-caption {
     background-color: whitesmoke;
     opacity: 80%;
-  }
+  } */
 
   .row img {
     width: 100%;
