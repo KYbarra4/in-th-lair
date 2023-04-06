@@ -130,7 +130,7 @@
   }
 
   .row img:hover{
-    opacity: 60%;
+    opacity: 50%;
   }
 
   figcaption {
@@ -143,6 +143,7 @@
 
   figcaption:hover {
     color: darkgray;
+    opacity: 50%;
   }
 
   .price {
@@ -156,6 +157,6 @@
   }
 
   .price {
-    padding-bottom: 60%;
+    /* padding-bottom: 60%; */
     font-size: 18px;
   }
