@@ -1,4 +1,4 @@
-body {
+  body {
     opacity:90%;
     }
   
@@ -15,12 +15,13 @@ body {
   }
   
   .thelair-head {
-    color: #041e42;
+    color: black;
     font-family: georgia;
-    font-size: 28pt;
+    font-size: 32pt;
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
+    text-decoration: underline;
   }
   
   .navbar {
@@ -28,6 +29,10 @@ body {
     color: #ffffff;
     font-family: georgia;
     padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1; 
   }
   
   .navbar-brand {
@@ -73,15 +78,21 @@ body {
     text-align: center;
   }
   
+  h3 {
+    text-decoration: underline;
+  }
+  
   h4 {
     text-align: center;
   }
   
   .container {
     min-height: 100%;
-    background-color: whitesmoke;
+    background-color: lightgray;
+    background-blend-mode: lighten;
     --bs-gutter-x: 100px;
     --bs-gutter-y: 100px;
+    margin-top: 60px;
   }
 
   .dropdown-item:hover {
@@ -98,7 +109,7 @@ body {
   }
 
   .carousel-control-next-icon {
-    color-scheme: black
+    color-scheme: black;
   }
 
   .carousel-item {
@@ -123,7 +134,8 @@ body {
   }
 
   .explain {
-    background-color: #bfc5c2;
+    /* background-color: #bfc5c2; */
+    background-color: whitesmoke;
     font-size: 24px;
     border-radius: 25px;
     padding: 10px
@@ -133,4 +145,8 @@ body {
   .head-more {
     text-align: center;
     font-size: 28px;
+  }
+
+  #tradingview_4dc6a {
+    height: 540px;
   }
