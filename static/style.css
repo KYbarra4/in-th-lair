@@ -111,7 +111,7 @@
   }
 
   .carousel-control-next-icon {
-    color-scheme: black
+    color-scheme: black;
   }
 
   .carousel-item {
@@ -123,7 +123,7 @@
 
   .carousel-caption {
     background-color: whitesmoke;
-    /* opacity: 80%; */
+    opacity: 70%;
   }
 
   .row img {
