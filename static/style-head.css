@@ -88,7 +88,7 @@
   
   .container {
     min-height: 100%;
-    background-color: lightgray;
+    background-color: #eee;
     background-blend-mode: lighten;
     --bs-gutter-x: 100px;
     --bs-gutter-y: 100px;
@@ -139,7 +139,7 @@
 
   .explain {
     /* background-color: #bfc5c2; */
-    background-color: whitesmoke;
+    background-color: #cecece;
     font-size: 24px;
     border-radius: 25px;
     padding: 10px
@@ -153,6 +153,17 @@
 
   #tradingview_4dc6a {
     height: 540px;
+  }
+
+  .nav-item-shop{
+    background-color: black;
+    border: none;
+    /* float: center; */
+    /* align-items: center; */
+  }
+
+  .nav-item-shop:hover {
+    background-color: darkgreen;
   }
 
   

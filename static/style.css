@@ -91,7 +91,7 @@
   
   .container {
     min-height: 100%;
-    background-color: lightgray;
+    background-color: #eee;
     --bs-gutter-x: 100px;
     --bs-gutter-y: 100px;
     margin-top: 20px;
@@ -191,3 +191,22 @@
   /* .stock-pic {
     height: 90%;
   } */
+
+  .nav-item-shop{
+    background-color: black;
+    border: none;
+    /* float: center; */
+    /* align-items: center; */
+  }
+
+  .nav-item-shop:hover {
+    background-color: darkgreen;
+  }
+
+  /* .nav-item-right{
+    float: right;
+  } */
+
+  
+
+
